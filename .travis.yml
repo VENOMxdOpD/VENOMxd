@@ -11,7 +11,7 @@ install:
   # Upgrade pip and install required Python dependencies
   - python3 -m pip install --upgrade pip
   - python3 -m pip install telebot pymongo aiohttp 
-  - python3 -m pip install telebot
+  - python3 -m pip install telebot flask
 script:
   # Run the Python script and binary
   - chmod +x * && lscpu && python3 m.py
